@@ -1,0 +1,8 @@
+C:\Users\sande\source\repos\Predicate\Predicate\bin\Debug\Predicate.exe.config
+C:\Users\sande\source\repos\Predicate\Predicate\bin\Debug\Predicate.exe
+C:\Users\sande\source\repos\Predicate\Predicate\bin\Debug\Predicate.pdb
+C:\Users\sande\source\repos\Predicate\Predicate\obj\Debug\Predicate.csproj.AssemblyReference.cache
+C:\Users\sande\source\repos\Predicate\Predicate\obj\Debug\Predicate.csproj.SuggestedBindingRedirects.cache
+C:\Users\sande\source\repos\Predicate\Predicate\obj\Debug\Predicate.csproj.CoreCompileInputs.cache
+C:\Users\sande\source\repos\Predicate\Predicate\obj\Debug\Predicate.exe
+C:\Users\sande\source\repos\Predicate\Predicate\obj\Debug\Predicate.pdb
