@@ -18,17 +18,16 @@ namespace Predicate
             list.Add(new Product("HD Case", 80.90));
 
 
-
-            list.ForEach(p => { p.Price += p.Price * 0.1; });
-            foreach (Product p in list)
+            List<string> result = list.Select(NameUpper).ToList();
+            foreach (var item in result)
             {
-                Console.WriteLine(p);
+                Console.WriteLine(item);
             }
             Console.ReadKey();
         }
-        static void UpdatePrice(Product p)
+        static string NameUpper(Product p)
         {
-            p.Price += p.Price * 0.1;
+            return p.Name.ToUpper();
         }
     }
 }
