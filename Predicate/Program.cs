@@ -16,9 +16,9 @@ namespace Predicate
             list.Add(new Product("Mouse", 50.00));
             list.Add(new Product("Tablet", 350.50));
             list.Add(new Product("HD Case", 80.90));
+            Func<Product, string> func = NameUpper;
 
-
-            List<string> result = list.Select(NameUpper).ToList();
+            List<string> result = list.Select(func).ToList();
             foreach (var item in result)
             {
                 Console.WriteLine(item);
